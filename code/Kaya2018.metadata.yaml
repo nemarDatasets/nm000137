@@ -1,0 +1,126 @@
+_dataset:
+  class: Kaya2018
+  code: Kaya2018
+  doi: 10.1038/sdata.2018.211
+  interval:
+  - 0
+  - 1
+  n_subjects: 7
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 19
+  ground: A1, A2 (earlobes)
+  hardware: Nihon Kohden EEG-1200
+  line_freq: 50.0
+  montage: standard_1020
+  n_channels: 19
+  reference: System 0V (0.55*(C3+C4))
+  sampling_rate: 200.0
+  sensors:
+  - Fp1
+  - Fp2
+  - F3
+  - F4
+  - C3
+  - C4
+  - P3
+  - P4
+  - O1
+  - O2
+  - F7
+  - F8
+  - T3
+  - T4
+  - T5
+  - T6
+  - Fz
+  - Cz
+  - Pz
+bci_application:
+  environment: lab
+cross_validation:
+  cv_folds: 5
+  cv_method: repeated_random_split
+  evaluation_type:
+  - within_subject
+data_structure:
+  trials_context: Variable number of trials per session; 1s cue + 1.5-2.5s ITI
+documentation:
+  country: TR
+  data_url: https://figshare.com/collections/A_large_electroencephalographic_motor_imagery_dataset_for_electroencephalographic_brain_computer_interfaces/3917698
+  doi: 10.1038/sdata.2018.211
+  institution: Mersin University
+  investigators:
+  - Murat Kaya
+  - Mustafa Kemal Binli
+  - Erkan Ozbay
+  - Hilmi Yanar
+  - Yuriy Mishchenko
+  keywords:
+  - EEG
+  - motor imagery
+  - brain-computer interface
+  - BCI
+  license: CC-BY-4.0
+  publication_year: 2018
+  repository: Figshare
+  senior_author: Yuriy Mishchenko
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  - passive
+  events:
+    left_hand: 1
+    passive: 3
+    right_hand: 2
+  feedback_type: none
+  mode: offline
+  n_classes: 3
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: visual arrow cue
+  study_design: Classical left/right hand motor imagery with passive rest
+  synchronicity: synchronous
+  task_type: left_right_hand
+  trial_duration: 1.0
+file_format: MAT
+paradigm_specific:
+  cue_duration_s: 1.0
+  detected_paradigm: motor_imagery
+  imagery_tasks:
+  - left_hand
+  - right_hand
+  - passive
+participants:
+  age_max: 35
+  age_min: 20
+  gender:
+    female: 2
+    male: 5
+  health_status: healthy
+  n_subjects: 7
+  species: homo sapiens
+preprocessing:
+  data_state: raw
+runs_per_session: 1
+sessions_per_subject: 1
+signal_processing:
+  classifiers:
+  - SVM
+  feature_extraction:
+  - fourier_transform_amplitudes
+  frequency_bands:
+    low_pass:
+    - 0.0
+    - 5.0
+tags:
+  modality:
+  - motor
+  pathology:
+  - healthy
+  type:
+  - imagery

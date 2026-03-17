@@ -1,0 +1,38 @@
+{
+	"Name": "Classical motor imagery dataset with left hand, right hand, and rest",
+	"BIDSVersion": "1.9.0",
+	"HEDVersion": "8.4.0",
+	"DatasetType": "derivative",
+	"License": "CC-BY-4.0",
+	"Authors": [
+		"Murat Kaya",
+		"Mustafa Kemal Binli",
+		"Erkan Ozbay",
+		"Hilmi Yanar",
+		"Yuriy Mishchenko"
+	],
+	"ReferencesAndLinks": [
+		"https://figshare.com/collections/A_large_electroencephalographic_motor_imagery_dataset_for_electroencephalographic_brain_computer_interfaces/3917698"
+	],
+	"GeneratedBy": [
+		{
+			"CodeURL": "https://github.com/NeuroTechX/moabb",
+			"Name": "moabb",
+			"Description": "Mother of All BCI Benchmarks",
+			"Version": "1.4.3"
+		}
+	],
+	"SourceDatasets": [
+		{
+			"DOI": "10.1038/sdata.2018.211",
+			"URL": "https://figshare.com/collections/A_large_electroencephalographic_motor_imagery_dataset_for_electroencephalographic_brain_computer_interfaces/3917698"
+		}
+	],
+	"Keywords": [
+		"EEG",
+		"motor imagery",
+		"brain-computer interface",
+		"BCI"
+	],
+	"PublicationYear": 2018
+}
