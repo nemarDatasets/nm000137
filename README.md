@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000137-blue)](https://doi.org/10.82901/nemar.nm000137)
+
 # Classical motor imagery dataset with left hand, right hand, and rest
 
 Classical motor imagery dataset with left hand, right hand, and rest.
