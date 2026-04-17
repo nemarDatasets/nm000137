@@ -1,0 +1,73 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Murat Kaya": {},
+    "Mustafa Kemal Binli": {},
+    "Erkan Ozbay": {},
+    "Hilmi Yanar": {},
+    "Yuriy Mishchenko": {}
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/sdata.2018.211",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000137",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000137",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "title": "Classical motor imagery dataset with left hand, right hand, and rest",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "652.8 MB (20 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".html",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yaml",
+    ".yml"
+  ],
+  "description": "A classical motor imagery EEG dataset comprising recordings from 7 healthy subjects performing left hand, right hand, and passive rest tasks. The dataset contains 19-channel EEG data sampled at 200 Hz with visual cue-based motor imagery paradigm, designed for brain-computer interface research and benchmarking. This derivative dataset is organized in BIDS format and includes standardized HED event annotations for reproducible analysis.",
+  "methods_description": "EEG data were acquired using a Nihon Kohden EEG-1200 system with 19 channels positioned according to the standard 10-20 montage (Fp1, Fp2, F3, F4, C3, C4, P3, P4, O1, O2, F7, F8, T3, T4, T5, T6, Fz, Cz, Pz). Sampling rate was 200 Hz with reference computed as 0.55*(C3+C4) and ground at earlobes (A1, A2). Subjects performed motor imagery tasks cued by visual arrow stimuli with 1-second trial duration and 1.5-2.5 second inter-trial intervals. The paradigm included three conditions: left hand imagery, right hand imagery, and passive rest.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "electroencephalography"
+    },
+    {
+      "term": "BCI"
+    },
+    {
+      "term": "motor cortex"
+    }
+  ],
+  "source_hash": "46d9f94e0e7193e2c0eb8fa26059c6fe1c0beb0ecc22c851473c4421b888ffa8"
+}
