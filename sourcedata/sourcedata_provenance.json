@@ -1,0 +1,100 @@
+{
+ "dataset": "nm000137",
+ "moabb_class": "Kaya2018",
+ "moabb_version_used": "1.5.0",
+ "retrieved": "2026-08-11",
+ "retrieved_by": "moabb.datasets.Kaya2018.data_path()",
+ "upstream_cache_root": "/expanse/lustre/scratch/bpinto/temp_project/sourcedata_staging/mne_data/MNE-kaya2018-data",
+ "license": "CC-BY-4.0",
+ "doi": "10.1038/sdata.2018.211",
+ "naming": "upstream_filenames_restored",
+ "n_files": 17,
+ "total_bytes": 637619826,
+ "files": [
+  {
+   "file": "CLA-SubjectA-160108-3St-LRHand.mat",
+   "bytes": 39754689,
+   "sha256": "642ee8d6114e05b6b2f6f57d8f12dc20ed25504bbbdb6edcd80959e74a7d4538"
+  },
+  {
+   "file": "CLA-SubjectB-151019-3St-LRHand.mat",
+   "bytes": 47196369,
+   "sha256": "b291bd1c6af001545e2feabccfd8bf4247560ecc301a7ce08e3d2a3387dca10f"
+  },
+  {
+   "file": "CLA-SubjectB-151020-3St-LRHand.mat",
+   "bytes": 40057268,
+   "sha256": "ef2d060c0970f9dd42d4f905eff1426d04cc70993a82267f18594b35bb83f095"
+  },
+  {
+   "file": "CLA-SubjectB-151215-3St-LRHand.mat",
+   "bytes": 39601663,
+   "sha256": "e9dbbf0793dac45b9365d9661a466e4793f8b5710d82397f6744c643a6f4e87f"
+  },
+  {
+   "file": "CLA-SubjectC-151126-3St-LRHand.mat",
+   "bytes": 39787148,
+   "sha256": "1e712ed3c1af8c8a479be974db08d83613b9b8cecaa5c4ea841123a87f0495d1"
+  },
+  {
+   "file": "CLA-SubjectC-151216-3St-LRHand.mat",
+   "bytes": 41053164,
+   "sha256": "3b1bee0d3a435be7ff73331173f54a7b31955892aa566de90244b6e4ed8cb40d"
+  },
+  {
+   "file": "CLA-SubjectC-151223-3St-LRHand.mat",
+   "bytes": 40730237,
+   "sha256": "30f7341bc6002aac019218298247299510bc66a3f22f28881fccdd38cf85730f"
+  },
+  {
+   "file": "CLA-SubjectD-151125-3St-LRHand.mat",
+   "bytes": 40893772,
+   "sha256": "5f37d736eeeb63502c5cfa683ab94b14ebfd003c9d4f34206fc181857a05920e"
+  },
+  {
+   "file": "CLA-SubjectE-151225-3St-LRHand.mat",
+   "bytes": 41815884,
+   "sha256": "32a9512d0e8e5b44acefa8137246ef5cb24d62059066c65949810988e69b9911"
+  },
+  {
+   "file": "CLA-SubjectE-160119-3St-LRHand.mat",
+   "bytes": 42125017,
+   "sha256": "391f7b3a45561063015b0a21197abaf0aa2ba3c1a09fc0540b5c072903c10eb2"
+  },
+  {
+   "file": "CLA-SubjectE-160122-3St-LRHand.mat",
+   "bytes": 42450605,
+   "sha256": "2832bd9a447bc1c4417215e08c0429e43e627f2776ec7d715c5fd30cb020da16"
+  },
+  {
+   "file": "CLA-SubjectF-150916-3St-LRHand.mat",
+   "bytes": 42442141,
+   "sha256": "66e6c666686d84a662bc311cab9bf9a0dab108b6f667d0111a3cddeea425a238"
+  },
+  {
+   "file": "CLA-SubjectF-150917-3St-LRHand.mat",
+   "bytes": 41337121,
+   "sha256": "cd1ab0db2067df71a7f037b45569f487e4c06ace701a0b2bdbbe6716024d66c0"
+  },
+  {
+   "file": "CLA-SubjectF-150928-3St-LRHand.mat",
+   "bytes": 40368469,
+   "sha256": "4f43b20c1ff41199b01597bf20152b53fed9ab06da1f8239947843f81e55e1cd"
+  },
+  {
+   "file": "CLA-SubjectJ-170504-3St-LRHand-Inter.mat",
+   "bytes": 19580157,
+   "sha256": "6c24334a12247f5659eeddeb6292f46e4ecd05c173dac16bd25b2073d3f11a8f"
+  },
+  {
+   "file": "CLA-SubjectJ-170508-3St-LRHand-Inter.mat",
+   "bytes": 19369862,
+   "sha256": "37aa5036c76dd8170fb68c36243d422a1fbab58f83a539a58209286e96e1268d"
+  },
+  {
+   "file": "CLA-SubjectJ-170510-3St-LRHand-Inter.mat",
+   "bytes": 19056260,
+   "sha256": "2ce2114880eb35db5b77262c712d580465fa4bd3b87aa0b896b994a4b46c1075"
+  }
+ ]
+}
