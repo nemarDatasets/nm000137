@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Classical motor imagery dataset with left hand, right hand, and rest",
-  "description": "A classical motor imagery EEG dataset comprising recordings from 7 healthy subjects performing left hand, right hand, and passive rest tasks. The dataset contains 19-channel EEG data sampled at 200 Hz with visual cue-based motor imagery paradigm, designed for brain-computer interface research and benchmarking. This derivative dataset is organized in BIDS format and includes standardized event annotations using HED 8.4.0 schema.",
-  "methods_description": "EEG data were acquired using a Nihon Kohden EEG-1200 system with 19 channels positioned according to the standard 10-20 montage (Fp1, Fp2, F3, F4, C3, C4, P3, P4, O1, O2, F7, F8, T3, T4, T5, T6, Fz, Cz, Pz). Sampling rate was 200 Hz with reference at 0V (0.55*(C3+C4)) and ground at earlobes (A1, A2). Subjects performed motor imagery tasks cued by visual arrow stimuli with 1-second trial duration and 1.5-2.5 second inter-trial intervals. Three experimental conditions were presented: left hand imagery, right hand imagery, and passive rest.",
+  "description": "A classical motor imagery EEG dataset comprising recordings from 7 healthy subjects performing left hand, right hand, and passive rest tasks. The dataset contains 19-channel EEG data sampled at 200 Hz with visual cue-based motor imagery paradigm, designed for brain-computer interface research and benchmarking. This derivative dataset is organized in BIDS format and includes standardized HED event annotations for reproducible analysis.",
+  "methods_description": "EEG data were acquired using a Nihon Kohden EEG-1200 system with 19 channels positioned according to the standard 10-20 montage (Fp1, Fp2, F3, F4, C3, C4, P3, P4, O1, O2, F7, F8, T3, T4, T5, T6, Fz, Cz, Pz). Sampling rate was 200 Hz with reference computed as 0.55*(C3+C4) and ground at earlobes (A1, A2). Subjects performed motor imagery tasks cued by visual arrow presentations with 1-second trial duration and 1.5-2.5 second inter-trial intervals. The paradigm included three conditions: left hand imagery, right hand imagery, and passive rest.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -70,5 +70,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "5c7131a269350a4d63ab891eb3041c5dce41d3fed74573250a708b9c3bf0652c"
+  "source_hash": "76457727c791881c507b8cfe97e08a7be50ae473e72ae0709764e6d7f78c5372"
 }
