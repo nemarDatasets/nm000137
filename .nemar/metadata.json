@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Classical motor imagery dataset with left hand, right hand, and rest",
-  "description": "A classical motor imagery EEG dataset comprising recordings from 7 healthy subjects performing left hand, right hand, and passive rest tasks. The dataset contains 19-channel EEG data sampled at 200 Hz with visual cue-based motor imagery paradigm, designed for brain-computer interface research and benchmarking. This derivative dataset is organized in BIDS format and includes standardized HED event annotations for reproducible analysis.",
-  "methods_description": "EEG data were acquired using a Nihon Kohden EEG-1200 system with 19 channels positioned according to the standard 10-20 montage (Fp1, Fp2, F3, F4, C3, C4, P3, P4, O1, O2, F7, F8, T3, T4, T5, T6, Fz, Cz, Pz). Sampling rate was 200 Hz with reference computed as 0.55*(C3+C4) and ground at earlobes (A1, A2). Subjects performed motor imagery tasks cued by visual arrow presentations with 1-second trial duration and 1.5-2.5 second inter-trial intervals. The paradigm included three conditions: left hand imagery, right hand imagery, and passive rest.",
+  "description": "This dataset contains 19-channel EEG recordings from 7 healthy participants performing classical motor imagery of the left hand, right hand, and passive rest. Participants responded to visual arrow cues in offline sessions, without feedback. The recordings were made with a Nihon Kohden EEG-1200 system at 200 Hz. The data support brain-computer interface research and motor imagery classification benchmarking.",
+  "methods_description": "EEG was recorded from 19 scalp channels (10-20 system) with a Nihon Kohden EEG-1200 at 200 Hz, with earlobe grounds (A1, A2) and a 50 Hz line frequency. Trials used a 1 s visual arrow cue followed by a 1.5-2.5 s inter-trial interval. Participants imagined left-hand or right-hand movement, or stayed passive, with no feedback.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -23,16 +23,14 @@
     {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "electroencephalography"
     },
     {
       "term": "BCI"
     },
     {
-      "term": "motor cortex"
+      "term": "left and right hand"
     }
   ],
   "related_identifiers": [
@@ -50,6 +48,16 @@
       "identifier": "https://nemar.org/dataset/nm000137",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
     }
   ],
   "resource_type_general": "Dataset",
@@ -58,7 +66,7 @@
     "eeg"
   ],
   "sizes": [
-    "1.3 GB (37 files)"
+    "1.20 GB (37 files)"
   ],
   "formats": [
     ".bdf",
