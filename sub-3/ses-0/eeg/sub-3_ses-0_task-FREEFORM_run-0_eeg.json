@@ -1,0 +1,37 @@
+{
+	"TaskName": "FREEFORM",
+	"Manufacturer": "Nihon Kohden EEG-1200",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 200.0,
+	"SoftwareFilters": "n/a",
+	"RecordingDuration": 1958.995,
+	"RecordingType": "continuous",
+	"EEGReference": "System 0V (0.55*(C3+C4))",
+	"EEGGround": "A1, A2 (earlobes)",
+	"EEGPlacementScheme": "10-20 system",
+	"EEGChannelCount": 19,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"MiscChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "Nihon Kohden EEG-1200",
+	"SoftwareVersions": "Neurofax, Matlab",
+	"CapManufacturer": "Electro-Cap International",
+	"HardwareFilters": {
+		"HardwareFilter": {
+			"highpass_hz": "0.53",
+			"lowpass_hz": "70.0",
+			"notch_hz": "50.0"
+		}
+	},
+	"TaskDescription": "[self_paced_execution_left_right_hand] Self-paced left/right hand key presses (real movement, no cue) Trial duration: 1.0s.",
+	"Instructions": "n/a",
+	"InstitutionName": "Mersin University",
+	"InstitutionAddress": "TR",
+	"InstitutionalDepartmentName": "n/a",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "Impedance kept below 10.0 kOhm",
+	"DeviceSerialNumber": "n/a",
+	"Description": "EEG recording."
+}

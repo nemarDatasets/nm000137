@@ -8,9 +8,142 @@
  "license": "CC-BY-4.0",
  "doi": "10.1038/sdata.2018.211",
  "naming": "upstream_filenames_restored",
- "n_files": 17,
- "total_bytes": 637619826,
+ "n_files": 75,
+ "total_bytes": 5307434695,
  "files": [
+  {
+   "file": "5F-SubjectA-160405-5St-SGLHand.mat",
+   "bytes": 43703890,
+   "sha256": "c2c0312b0cf76de5eba77259e7c2ff919b0908d33f46ce8aa8e965a338a7fdae",
+   "subject": "1",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectA-160408-5St-SGLHand-HFREQ.mat",
+   "bytes": 210281377,
+   "sha256": "ca85b60ff78ee6e3f465ef036f73a8093178945f01b159ae855b551b7d4a9779",
+   "subject": "1",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectB-151110-5St-SGLHand.mat",
+   "bytes": 42950460,
+   "sha256": "5832dd0fd5870a10b7ae14e947cc2210d5db281b1d3a992f1c2f43194783e922",
+   "subject": "2",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectB-160309-5St-SGLHand-HFREQ.mat",
+   "bytes": 211783386,
+   "sha256": "b3cd4de4ca243aeb9bc8fa13a75e5c97ea747a32e75ec0224978d04bbe098aee",
+   "subject": "2",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectB-160311-5St-SGLHand-HFREQ.mat",
+   "bytes": 215252811,
+   "sha256": "597ceb541124c5eedd5d6806f18be5f4dedf7319284a55e1072d1603d126c9e1",
+   "subject": "2",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectB-160316-5St-SGLHand.mat",
+   "bytes": 42820475,
+   "sha256": "fff73002bc1b6c72e2415df7d14b537b19bd445e17b392bfc03fb4b49e83364a",
+   "subject": "2",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectC-151204-5St-SGLHand.mat",
+   "bytes": 43303502,
+   "sha256": "1eafe36117141dfa60649585645df6b634c2131cea2683cdf3f83980bc29e9af",
+   "subject": "3",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectC-160429-5St-SGLHand-HFREQ.mat",
+   "bytes": 213592539,
+   "sha256": "684600f8e275e1e89f50307c965516605f6b4b8dc9bec18477c6769d26e78964",
+   "subject": "3",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectE-160321-5St-SGLHand-HFREQ.mat",
+   "bytes": 220985414,
+   "sha256": "199218bf23826c07f205603f6a5a92d981aecfccba725b42e00e1717a175358e",
+   "subject": "5",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectE-160415-5St-SGLHand-HFREQ.mat",
+   "bytes": 218232645,
+   "sha256": "b8d2e7fc1eb5d84b23e33273401f8fb5d09cd290c3ee8e727c965da03d0bea0e",
+   "subject": "5",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectE-160429-5St-SGLHand-HFREQ.mat",
+   "bytes": 223395940,
+   "sha256": "45de5d2f6e632c5a965b87257169e1f4f26f785e71826f63f8defc2100533816",
+   "subject": "5",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectF-151027-5St-SGLHand.mat",
+   "bytes": 44602782,
+   "sha256": "46e5e1a360a85b5923a6ae6dbf06422113f637c63d8db522dade5e77059413e3",
+   "subject": "6",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectF-160209-5St-SGLHand.mat",
+   "bytes": 44488147,
+   "sha256": "a7bd96afb301cb0958d42301e541ba9447481d41ed37fb006a6fd348de8f2676",
+   "subject": "6",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectF-160210-5St-SGLHand-HFREQ.mat",
+   "bytes": 214676500,
+   "sha256": "bb2280ec96d093035210f05e7db029283a73ef4f682c80e53838825027730f0f",
+   "subject": "6",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectG-160413-5St-SGLHand-HFREQ.mat",
+   "bytes": 217419789,
+   "sha256": "45e443e2f98fe6db30d51895c40085a0aacaa2b38a06710c5b209fa0c1718934",
+   "subject": "8",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectG-160428-5St-SGLHand-HFREQ.mat",
+   "bytes": 216457438,
+   "sha256": "b21fb86d8a92bee16b4d6528207e084d96d243af1dca7a2e07e18b282e9ac8a8",
+   "subject": "8",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectH-160804-5St-SGLHand-HFREQ.mat",
+   "bytes": 219905071,
+   "sha256": "668bb4f8485946bc2f661e6c39127c09e8171d60efe2b777c09f6c7f27e77548",
+   "subject": "9",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectI-160719-5St-SGLHand-HFREQ.mat",
+   "bytes": 243479809,
+   "sha256": "9000280d0cae145dbf0421b271a0d903609ddd2531878ed19cbcf67ad0439b48",
+   "subject": "10",
+   "task": "5F"
+  },
+  {
+   "file": "5F-SubjectI-160723-5St-SGLHand-HFREQ.mat",
+   "bytes": 219563824,
+   "sha256": "84cc573170949e9d9372506f590c70de6dca6d409ecf2437426dc2958b8e78cc",
+   "subject": "10",
+   "task": "5F"
+  },
   {
    "file": "CLA-SubjectA-160108-3St-LRHand.mat",
    "bytes": 39754689,
@@ -112,7 +245,287 @@
    "bytes": 19056260,
    "sha256": "2ce2114880eb35db5b77262c712d580465fa4bd3b87aa0b896b994a4b46c1075",
    "subject": "7"
+  },
+  {
+   "file": "FREEFORM-SubjectB-151111-2St-LRHand.mat",
+   "bytes": 28006826,
+   "sha256": "6063b18d474fa34c84eb6cb99fad3b8277f2ce15753045282694565fd1386e51",
+   "subject": "2",
+   "task": "FREEFORM"
+  },
+  {
+   "file": "FREEFORM-SubjectC-151208-2St-LRHand.mat",
+   "bytes": 23159867,
+   "sha256": "08b2cb633b3531f1b68f034b66ef14304c3868a2f6a366874c1d29e45f372eaa",
+   "subject": "3",
+   "task": "FREEFORM"
+  },
+  {
+   "file": "FREEFORM-SubjectC-151210-2St-LRHand.mat",
+   "bytes": 16947023,
+   "sha256": "8e94a2e4d0aafbf3c98954fbdbd1396cc35c7abbcc536f4bdf28b18ddb7b3b0f",
+   "subject": "3",
+   "task": "FREEFORM"
+  },
+  {
+   "file": "HaLT-SubjectA-160223-6St-LRHandLegTongue.mat",
+   "bytes": 39673990,
+   "sha256": "fc8647c55ddcb9854de234a35e4261576ecca957a8381d3ef6554aa209f89231",
+   "subject": "1",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectA-160308-6St-LRHandLegTongue.mat",
+   "bytes": 40401694,
+   "sha256": "76c9f2eb53f2c1e6192f1bd7082e24c8c5b7c4c362089d3bac6320e340970bb7",
+   "subject": "1",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectA-160310-6St-LRHandLegTongue.mat",
+   "bytes": 49162097,
+   "sha256": "0f2f0d913e29ff150c2929b163e0151e8b2d4f469de2b11985e13114938cb2df",
+   "subject": "1",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectB-160218-6St-LRHandLegTongue.mat",
+   "bytes": 39637883,
+   "sha256": "922f198399b375ad75d4f4350d436097a88efdd89d6869ca72199e48e42ed9f3",
+   "subject": "2",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectB-160225-6St-LRHandLegTongue.mat",
+   "bytes": 39503806,
+   "sha256": "db04df85c92a1b82e1195154e5382d7a6783aee74c0da476af30f4fababb3ac7",
+   "subject": "2",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectB-160229-6St-LRHandLegTongue.mat",
+   "bytes": 39592631,
+   "sha256": "c9fb0ed3632e5ea2d74e681f400631380d08344830ad8241782a1e981c34f42f",
+   "subject": "2",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectC-160224-6St-LRHandLegTongue.mat",
+   "bytes": 39637230,
+   "sha256": "012346da00f13d00c09d95edfa46f10f648b8beb3a878c721a99e22e3058b63c",
+   "subject": "3",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectC-160302-6St-LRHandLegTongue.mat",
+   "bytes": 40989802,
+   "sha256": "a357bd705cf1d64c6272938d502b0afbf96d89a49d200dc857d079f3dff27148",
+   "subject": "3",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectE-160219-6St-LRHandLegTongue.mat",
+   "bytes": 41549047,
+   "sha256": "be8af029179e01b2e17c494253ae3114887a1cf1b2696fc4f33f57c75c078dc6",
+   "subject": "5",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectE-160226-6St-LRHandLegTongue.mat",
+   "bytes": 41898829,
+   "sha256": "9a3a4f042d0996ff0f04c34ca0a7fef417724f541d1cc04adf5bd0789ed2575f",
+   "subject": "5",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectE-160304-6St-LRHandLegTongue.mat",
+   "bytes": 42230511,
+   "sha256": "9078a641682f21a232b89cc2eda3e7144b46dccb99c6047fafda15b3f6bf881b",
+   "subject": "5",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectF-160202-6St-LRHandLegTongue.mat",
+   "bytes": 40997591,
+   "sha256": "e14e02bbbdda082b1de56326b01a65e0d9739b202d0836899bd87488ff1060e8",
+   "subject": "6",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectF-160203-6St-LRHandLegTongue.mat",
+   "bytes": 39908474,
+   "sha256": "5a930357c2dfa44ff909434f234a96dc6285554344d67d427b029472056f91c5",
+   "subject": "6",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectF-160204-6St-LRHandLegTongue.mat",
+   "bytes": 40761616,
+   "sha256": "5fcde4383d097477063bb2ab654a0cf7f502a0a12498ff9b68d75fac22d193ed",
+   "subject": "6",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectG-160301-6St-LRHandLegTongue.mat",
+   "bytes": 40809576,
+   "sha256": "69d0c50a431c260a0a2a10546e6627247404aa3b1e915326fbaad24379217fb9",
+   "subject": "8",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectG-160322-6St-LRHandLegTongue.mat",
+   "bytes": 41614575,
+   "sha256": "5d11df8f66cadde8e98eb8df2f2d53918213574a94a666308b451aaf62ed97ef",
+   "subject": "8",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectG-160412-6St-LRHandLegTongue.mat",
+   "bytes": 41314754,
+   "sha256": "8d12df3a90988201e2070305da15ce9ce7e358ed1f8a0785e69911102659304d",
+   "subject": "8",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectH-160720-6St-LRHandLegTongue.mat",
+   "bytes": 42609226,
+   "sha256": "3f82aec9377694b58313684db581cda0f730079cfa51bd4b4ec3572c6b291789",
+   "subject": "9",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectH-160722-6St-LRHandLegTongue.mat",
+   "bytes": 43012711,
+   "sha256": "a384cf0e7b881fd8380966c1a6d88e573319d4f5d10525669605de22a661caef",
+   "subject": "9",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectI-160609-6St-LRHandLegTongue.mat",
+   "bytes": 40947964,
+   "sha256": "e1e7bebec4bea71b048ba4a4732f083cd5cd3afb9de423eb474d3898b9e5bc20",
+   "subject": "10",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectI-160628-6St-LRHandLegTongue.mat",
+   "bytes": 43083358,
+   "sha256": "d000d3d320bde8f29483689416f57512913b6a2a3fab539a8e3f075e2a74f059",
+   "subject": "10",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectJ-161121-6St-LRHandLegTongue.mat",
+   "bytes": 41296579,
+   "sha256": "4e2140f537cf2b4bde8665f254b29b56e8bf0fe6ae404133323294488e46126f",
+   "subject": "7",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectK-161027-6St-LRHandLegTongue.mat",
+   "bytes": 43386867,
+   "sha256": "9a4e58c4b89141e187d2bee91ae75fbb3dcb82cc8fbaea7591726eb3d361a59b",
+   "subject": "11",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectK-161108-6St-LRHandLegTongue.mat",
+   "bytes": 39982985,
+   "sha256": "d9e67fc0f680a27c20d55fd43f6ab51cfacd70e7b2de349b75c0a5ee837a98b2",
+   "subject": "11",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectL-161116-6St-LRHandLegTongue.mat",
+   "bytes": 41688358,
+   "sha256": "f8fc6435e5b4929d0edb3f378aa04d0b12fb2ad548a3520faf8f330b61183bb7",
+   "subject": "12",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectL-161205-6St-LRHandLegTongue.mat",
+   "bytes": 41964734,
+   "sha256": "88b82100d31f1f25fcd626e8d7e6dbc2be570a885098b86d056bc8e6dc6022c5",
+   "subject": "12",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectM-161108-6St-LRHandLegTongue.mat",
+   "bytes": 42787602,
+   "sha256": "7878aee65d721aae4a88f562f960d7143ef244ed1c71c32f71cde041421c29a0",
+   "subject": "13",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectM-161117-6St-LRHandLegTongue.mat",
+   "bytes": 40021830,
+   "sha256": "e803b8e65612790cd0393dfce0672c8bd44df16b915012274b9e8f3702131403",
+   "subject": "13",
+   "task": "HaLT"
+  },
+  {
+   "file": "HaLT-SubjectM-161124-6St-LRHandLegTongue.mat",
+   "bytes": 40890056,
+   "sha256": "e1f9eb7e3214116d7ca1e599a8505e3ed7b32422e753dadc8b3245c3c24ef7d5",
+   "subject": "13",
+   "task": "HaLT"
+  },
+  {
+   "file": "NoMT-SubjectF-160422-0St-NoMotor.mat",
+   "bytes": 42226257,
+   "sha256": "74e143bc400ab918f87d409b52effb8294cff3a0531de7de52a5b8b7a392d87e",
+   "subject": "6",
+   "task": "NoMT"
+  },
+  {
+   "file": "NoMT-SubjectH-160628-0St-NoMotor.mat",
+   "bytes": 43083358,
+   "sha256": "ba7df1b8a9b49830b9e2b6962a3b2b917372569fc4224ced8478f6c34ba3c417",
+   "subject": "9",
+   "task": "NoMT"
+  },
+  {
+   "file": "NoMT-SubjectI-160512-0St-NoMotor.mat",
+   "bytes": 40643111,
+   "sha256": "e504923fa50ce5419a2ddda6b3d196b4b158cae182b7dbe219ffe00bdd4c7af9",
+   "subject": "10",
+   "task": "NoMT"
+  },
+  {
+   "file": "NoMT-SubjectJ-161026-0St-NoMotor.mat",
+   "bytes": 41679475,
+   "sha256": "91c71f21d9e81cb556c5ccd45cbbbca0d68c2cb04848b85e1becf58a373c1379",
+   "subject": "7",
+   "task": "NoMT"
+  },
+  {
+   "file": "NoMT-SubjectK-161025-0St-NoMotor.mat",
+   "bytes": 44180878,
+   "sha256": "18768c9df95af4f3731cdf9025e3bc53981f8c96b3bae858f81910a81712b396",
+   "subject": "11",
+   "task": "NoMT"
+  },
+  {
+   "file": "NoMT-SubjectL-161026-0St-NoMotor.mat",
+   "bytes": 41990426,
+   "sha256": "7f1d3d1aaa40446c4f667b887a91dc657351e31dda2e0c7afa5577b6496ffd43",
+   "subject": "12",
+   "task": "NoMT"
+  },
+  {
+   "file": "NoMT-SubjectM-161116-0St-NoMotor.mat",
+   "bytes": 39645473,
+   "sha256": "420fa3313aa97034683251acbe2f581855a46dd3f89132447a30b442f801931a",
+   "subject": "13",
+   "task": "NoMT"
   }
  ],
- "n_subjects_recorded": 7
+ "n_subjects_recorded": 13,
+ "additions": [
+  {
+   "retrieved": "2026-11-24",
+   "n_files": 58,
+   "note": "the 5F, HaLT, FREEFORM and NoMT files of figshare collection 3917698, downloaded by figshare file id with MD5 check and read by moabb.datasets.Kaya2018_5F, Kaya2018_HaLT, Kaya2018_FREEFORM and Kaya2018_NoMT (moabb 1.8.0 with kaya2018_paradigms.patch). figshare lists these files as CC0."
+  }
+ ]
 }

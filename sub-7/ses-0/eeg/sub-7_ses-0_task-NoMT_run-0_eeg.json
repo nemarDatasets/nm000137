@@ -1,0 +1,37 @@
+{
+	"TaskName": "NoMT",
+	"Manufacturer": "Nihon Kohden EEG-1200",
+	"PowerLineFrequency": 50.0,
+	"SamplingFrequency": 200.0,
+	"SoftwareFilters": "n/a",
+	"RecordingDuration": 3337.995,
+	"RecordingType": "continuous",
+	"EEGReference": "System 0V (0.55*(C3+C4))",
+	"EEGGround": "A1, A2 (earlobes)",
+	"EEGPlacementScheme": "10-20 system",
+	"EEGChannelCount": 19,
+	"EOGChannelCount": 0,
+	"ECGChannelCount": 0,
+	"EMGChannelCount": 0,
+	"MiscChannelCount": 0,
+	"TriggerChannelCount": 0,
+	"ManufacturersModelName": "Nihon Kohden EEG-1200",
+	"SoftwareVersions": "Neurofax, Matlab",
+	"CapManufacturer": "Electro-Cap International",
+	"HardwareFilters": {
+		"HardwareFilter": {
+			"highpass_hz": "0.53",
+			"lowpass_hz": "70.0",
+			"notch_hz": "50.0"
+		}
+	},
+	"TaskDescription": "[passive_viewing] Passive viewing of the hand/leg/tongue cues without motor imagery (control) Trial duration: 1.0s, cue: 1.0s.",
+	"Instructions": "n/a",
+	"InstitutionName": "Mersin University",
+	"InstitutionAddress": "TR",
+	"InstitutionalDepartmentName": "n/a",
+	"CapManufacturersModelName": "n/a",
+	"SubjectArtefactDescription": "Impedance kept below 10.0 kOhm",
+	"DeviceSerialNumber": "n/a",
+	"Description": "EEG recording."
+}
