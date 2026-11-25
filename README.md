@@ -260,3 +260,6 @@ This dataset is distributed under CC-BY-4.0, as in all its earlier versions on N
 - Not every subject did every paradigm (see the table in the Dataset Overview). `participants.tsv` gives no age, sex or handedness per subject.
 - The original MATLAB files are in `sourcedata/`, with their checksums in `sourcedata/sourcedata_provenance.json`.
 
+### Note on `events.tsv` `value` Column
+
+The Paradigm Summary table above lists the original upstream source `.mat` marker codes. In the BIDS `events.tsv` files, the `value` column is assigned alphabetically by `trial_type` name (MNE-BIDS convention), not by source marker code; select trials by `trial_type`.
