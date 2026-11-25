@@ -12,7 +12,9 @@
     "Yuriy Mishchenko"
   ],
   "ReferencesAndLinks": [
-    "https://figshare.com/collections/A_large_electroencephalographic_motor_imagery_dataset_for_electroencephalographic_brain_computer_interfaces/3917698"
+    "https://figshare.com/collections/A_large_electroencephalographic_motor_imagery_dataset_for_electroencephalographic_brain_computer_interfaces/3917698",
+    "https://doi.org/10.1038/sdata.2018.211",
+    "https://doi.org/10.6084/m9.figshare.c.3917698"
   ],
   "GeneratedBy": [
     {
@@ -20,6 +22,16 @@
       "Name": "moabb",
       "Description": "Mother of All BCI Benchmarks",
       "Version": "1.4.3"
+    },
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "task-5F, task-HaLT, task-FREEFORM and task-NoMT (58 recordings) were exported by convert.py with the dataset classes Kaya2018_5F, Kaya2018_HaLT, Kaya2018_FREEFORM and Kaya2018_NoMT (kaya2018_paradigms.patch on moabb 1.8.0). The 19 EEG channels keep the sampling rate of the source files (200 Hz, or 1000 Hz for the HFREQ files); no filtering and no resampling. The source columns A1, A2 and X3 are not exported.",
+      "Version": "1.8.0"
+    },
+    {
+      "Name": "merge.py",
+      "Description": "Assembled this version from version 1.0.2 (17 task-imagery recordings, unchanged) and the new export: added the recordings, their scans.tsv rows, the participants rows of sub-8 to sub-13 and the 58 source files."
     }
   ],
   "SourceDatasets": [
@@ -36,5 +48,13 @@
   ],
   "PublicationYear": 2018,
   "DatasetDOI": "10.82901/nemar.nm000137",
-  "Version": "1.0.2"
+  "Version": "1.1.0",
+  "EthicsApprovals": [
+    "Ethics Committees of Toros University and Mersin University, Mersin, Turkey"
+  ],
+  "Funding": [
+    "TUBITAK ARDEB grant number 113E611",
+    "Young Investigator Award of the Science Academy under the BAGEP program"
+  ],
+  "HowToAcknowledge": "Cite Kaya, M., Binli, M. K., Ozbay, E., Yanar, H., Mishchenko, Y. (2018). A large electroencephalographic motor imagery dataset for electroencephalographic brain computer interfaces. Scientific Data 5:180211. doi:10.1038/sdata.2018.211"
 }

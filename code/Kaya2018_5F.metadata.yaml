@@ -1,0 +1,159 @@
+_dataset:
+  class: Kaya2018_5F
+  code: Kaya2018-5F
+  doi: 10.1038/sdata.2018.211
+  interval:
+  - 0
+  - 1
+  n_subjects: 8
+  paradigm: imagery
+acquisition:
+  cap_manufacturer: Electro-Cap International
+  channel_types:
+    eeg: 19
+  electrode_type: bridge electrodes
+  filters:
+    highpass_hz: 0.53
+    lowpass_hz: 70.0
+    notch_hz: 50.0
+  ground: A1, A2 (earlobes)
+  hardware: Nihon Kohden EEG-1200
+  impedance_threshold_kohm: 10.0
+  line_freq: 50.0
+  montage: standard_1020
+  reference: System 0V (0.55*(C3+C4))
+  sampling_rate: 1000.0
+  sensors:
+  - Fp1
+  - Fp2
+  - F3
+  - F4
+  - C3
+  - C4
+  - P3
+  - P4
+  - O1
+  - O2
+  - F7
+  - F8
+  - T3
+  - T4
+  - T5
+  - T6
+  - Fz
+  - Cz
+  - Pz
+  software: Neurofax, Matlab
+bci_application:
+  environment: lab
+contributing_labs:
+- Mersin University
+- Izmir University of Economics
+cross_validation:
+  cv_folds: 5
+  cv_method: repeated_random_split
+  evaluation_type:
+  - within_subject
+data_structure:
+  trials_context: Variable number of trials per session; 1s cue + 1.5-2.5s ITI
+documentation:
+  associated_paper_doi: 10.1038/sdata.2018.211
+  contact_info:
+  - yuriy.mishchenko@gmail.com
+  country: TR
+  data_url: https://figshare.com/collections/A_large_electroencephalographic_motor_imagery_dataset_for_electroencephalographic_brain_computer_interfaces/3917698
+  doi: 10.1038/sdata.2018.211
+  ethics_approval:
+  - Ethics Committees of Toros University and Mersin University, Turkey
+  funding:
+  - TUBITAK ARDEB grant number 113E611
+  - Science Academy BAGEP Award
+  institution: Mersin University
+  investigators:
+  - Murat Kaya
+  - Mustafa Kemal Binli
+  - Erkan Ozbay
+  - Hilmi Yanar
+  - Yuriy Mishchenko
+  keywords:
+  - EEG
+  - motor imagery
+  - brain-computer interface
+  - BCI
+  license: CC-BY-4.0
+  publication_year: 2018
+  related_paper_dois:
+  - 10.1109/TBME.2018.2865941
+  repository: Figshare
+  senior_author: Yuriy Mishchenko
+experiment:
+  class_labels:
+  - thumb
+  - index_finger
+  - middle_finger
+  - ring_finger
+  - little_finger
+  events:
+    index_finger: 2
+    little_finger: 5
+    middle_finger: 3
+    ring_finger: 4
+    thumb: 1
+  feedback_type: none
+  hed_tags:
+    index_finger: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Move, Index-finger))
+    little_finger: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Move, Little-finger))
+    middle_finger: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Move, Middle-finger))
+    ring_finger: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Move, Ring-finger))
+    thumb: (Sensory-event, Experimental-stimulus, Visual-presentation), (Agent-action, (Imagine, Move, Thumb))
+  mode: offline
+  n_classes: 5
+  paradigm: imagery
+  primary_modality: visual
+  stimulus_modalities:
+  - visual
+  stimulus_type: number above the target finger of a hand icon
+  study_design: Motor imagery of the five fingers of one hand (200 Hz and 1000 Hz sessions)
+  synchronicity: synchronous
+  task_type: five_fingers
+  trial_duration: 1.0
+file_format: MAT
+n_contributing_labs: 2
+paradigm_specific:
+  cue_duration_s: 1.0
+  detected_paradigm: motor_imagery
+  imagery_tasks:
+  - thumb
+  - index_finger
+  - middle_finger
+  - ring_finger
+  - little_finger
+participants:
+  age_max: 35
+  age_min: 20
+  gender:
+    female: 2
+    male: 6
+  health_status: healthy
+  n_subjects: 8
+  species: homo sapiens
+preprocessing:
+  data_state: raw
+runs_per_session: 1
+sessions_per_subject: 4
+signal_processing:
+  classifiers:
+  - SVM
+  feature_extraction:
+  - fourier_transform_amplitudes
+  frequency_bands:
+    low_pass:
+    - 0.0
+    - 5.0
+tags:
+  modality:
+  - motor
+  pathology:
+  - healthy
+  type:
+  - imagery
